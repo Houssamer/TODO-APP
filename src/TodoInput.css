@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.form {
+    display: grid;
+    grid-template-columns: .2fr .8fr .2fr;
+    align-items: center;
+}
+
+.label {
+    font-family: Caveat;
+    font-size: 50px;
+    margin-left: 2em;
+}
+
+.button-add  {
+    width: 170px;
+    height: 53px;
+    background-color: #F58333;
+    font-size: 40px;
+    border-radius: 30px;
+    border: 2px solid #F58333;
+    outline: none;
+    font-family: Caveat;
+    margin-right: 1em;
+}
+
+.button-add:hover {
+    background-color: #cf5600;
+    cursor: pointer;
+}
+
+.todo-input {
+    width: 640px;
+    height: 50px;
+    background-color: #FFE897;
+    border: 2px solid #FFE897;
+    outline: none;
+    border-radius: 100rem;
+    font-size: 30px;
+    padding-left: .5em;
+    margin: 0 auto;
+}

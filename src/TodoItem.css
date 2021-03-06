@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.item {
+    display: grid;
+    grid-template-columns: .2fr .8fr .2fr;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.edit-img {
+    display: inline-block;
+    margin-left: 15em;
+}
+
+.edit-img:hover {
+    cursor: pointer;
+}
+
+.delete-img {
+    display: inline-block;
+    margin-right: 15em;
+}
+
+.delete-img:hover {
+    cursor: pointer;
+}
+
+.item-content {
+    border: 2px solid #3161EB;
+    border-radius: 100rem;
+    width: 480px;
+    height: 35px;
+    text-align: center;
+    font-family: Caveat;
+    font-size: 24px;
+    background-color: #3161EB;
+    color: white;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.github {
+    margin-left: 30em;
+}
+
+.linkedin {
+    margin-right: 30em;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.App {
+    font-family: Pacifico;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: -2em;
+}
+
+.updateWindow {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    display: inline-block;
+    border-radius: 100rem;
+    border: 2px solid yellowgreen;
+}
+
+.form-update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-update {
+    display: inline-block;
+    margin-top: 3em;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #F58333;
+    border-radius: 100rem;
+    background-color: #F58333;
+    outline: none;
+    transition: all 500ms ease;
+}
+
+.button-update:hover {
+    transition: all 500ms ease;
+    background-color: #cf5600;
+    cursor: pointer;
+}
+
+.del-img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 60%;
+    margin-top: 1em;
+}
+
+.del-img:hover {
+    cursor: pointer;
+}
+
+.input-update {
+    transition: all 500ms ease;
+    display: inline-block;
+    margin-top: 5em;
+    width: 400px;
+    height: 30px;
+    border-radius: 100rem;
+    border: 2px solid #FFE897;
+    outline: none;
+    background-color: #FFE897;
+    padding-left: .5em;
+}
+
+.input-update:focus {
+    border: 2px solid #F58333;
+    transition: all 500ms ease;
+}
