@@ -15,8 +15,10 @@ h2 {
 
 .github {
     margin-left: 30em;
+    cursor: pointer;
 }
 
 .linkedin {
     margin-right: 30em;
+    cursor: pointer;
 }

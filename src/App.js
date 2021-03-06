@@ -12,7 +12,7 @@ function App() {
 
   const [Input, setInput] = useState('')
   const [Todos, setTodos] = useState([])
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
   const [itemId, setItemId] = useState('')
   useEffect(() => {
       db.collection('todos').orderBy('timestamp', 'desc').onSnapshot(snapshot => {
