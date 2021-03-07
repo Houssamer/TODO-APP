@@ -39,3 +39,101 @@
     color: white;
     margin: 0 auto;
 }
+
+
+@media (max-width: 1300px) {
+    .item {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+    }
+
+    .item-content {
+        border: 2px solid #3161EB;
+        border-radius: 100rem;
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        font-family: Caveat;
+        font-size: 20px;
+        background-color: #3161EB;
+        color: white;
+        margin: 0 auto;
+    }
+    .edit-img {
+        width: 24px;
+        height: 24px;
+        margin-right: .5em;
+    }
+
+    .delete-img {
+        width: 24px;
+        height: 24px;
+        margin-left: .5em;
+    }
+}
+@media (max-width: 768px) {
+    .item {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+    }
+
+    .item-content {
+        border: 2px solid #3161EB;
+        border-radius: 100rem;
+        width: 300px;
+        height: 20px;
+        text-align: center;
+        font-family: Caveat;
+        font-size: 16px;
+        background-color: #3161EB;
+        color: white;
+        margin: 0 auto;
+    }
+    .edit-img {
+        width: 20px;
+        height: 20px;
+        margin-right: .5em;
+    }
+
+    .delete-img {
+        width: 20px;
+        height: 20px;
+        margin-left: .5em;
+    }
+}
+@media (max-width: 400px) {
+    .item {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+    }
+
+    .item-content {
+        border: 2px solid #3161EB;
+        border-radius: 100rem;
+        width: 250px;
+        height: 20px;
+        text-align: center;
+        font-family: Caveat;
+        font-size: 16px;
+        background-color: #3161EB;
+        color: white;
+        margin: 0 auto;
+    }
+    .edit-img {
+        width: 20px;
+        height: 20px;
+        margin-right: .5em;
+    }
+
+    .delete-img {
+        width: 20px;
+        height: 20px;
+        margin-left: .5em;
+    }
+}

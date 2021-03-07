@@ -14,7 +14,7 @@ function TodoInput(props) {
                     placeholder=""
                     onChange={e => props.onChange(e)}
                 />
-                <button type="submit" class="button-add" onClick={props.onSubmit} disabled={!props.value}>ADD</button>
+                <button type="submit" className="button-add" onClick={props.onSubmit} disabled={!props.value}>ADD</button>
             </form>
         </div>
     )

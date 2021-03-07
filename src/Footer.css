@@ -5,6 +5,7 @@ footer {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -14,11 +15,92 @@ h2 {
 }
 
 .github {
-    margin-left: 30em;
+    width: 35px;
+    height: 35px;
+    margin-left: 21em;
     cursor: pointer;
 }
 
 .linkedin {
-    margin-right: 30em;
+    width: 35px;
+    height: 35px;
+    margin-right: 21em;
     cursor: pointer;
+}
+
+
+@media (max-width: 1300px) {
+    footer {
+        display: grid;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .github {
+        width: 30px;
+        height: 30px;
+        margin-left: 20em;
+        cursor: pointer;
+    }
+
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20em;
+        cursor: pointer;
+    }
+    
+}
+@media (max-width: 768px) {
+    footer {
+        display: grid;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .github {
+        width: 25px;
+        height: 25px;
+        margin-left: 14em;
+        cursor: pointer;
+    }
+
+    .linkedin {
+        width: 25px;
+        height: 25px;
+        margin-right: 14em;
+        cursor: pointer;
+    }
+    
+}
+@media (max-width: 360px) {
+    footer {
+        display: grid;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .github {
+        width: 24px;
+        height: 24px;
+        margin-left: 16em;
+        cursor: pointer;
+    }
+
+    .linkedin {
+        width: 24px;
+        height: 24px;
+        margin-right: 16em;
+        cursor: pointer;
+    }
+    
 }
